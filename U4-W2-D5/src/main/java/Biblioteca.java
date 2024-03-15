@@ -34,4 +34,14 @@ public class Biblioteca {
     public int getNumeroPagine() {
         return numeroPagine;
     }
+
+    @Override
+    public String toString() {
+        return "Biblioteca{" +
+                "ISBN=" + ISBN +
+                ", titolo='" + titolo + '\'' +
+                ", annoPubblicazione=" + annoPubblicazione +
+                ", numeroPagine=" + numeroPagine +
+                '}';
+    }
 }
