@@ -163,7 +163,7 @@ public class Application {
 
 
 
-// 2) RIMOZIONE ARTICOLO CON IBSN
+// 2) RIMOZIONE ARTICOLO CON ISBN
 
     public static void rimozioneArticoloPerISBN ( List<Biblioteca> archivioElementi ,long ISBN){
         archivioElementi = archivioElementi.stream()
@@ -171,7 +171,7 @@ public class Application {
                 .collect(Collectors.toList());
     }
 
-    // 3) RICERCA ARTICOLO PER IBSN
+    // 3) RICERCA ARTICOLO PER ISBN
 
     public static Map<Long, String> ricercaPerISBN (List<Biblioteca> archivioElementi, long ISBN){
         return archivioElementi.stream()
