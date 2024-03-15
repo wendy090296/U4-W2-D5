@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1f6f102-be87-4f10-82ea-8f2ba0041d2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Files/FilesMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Biblioteca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Libri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Libri.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Periodicità.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Periodicità.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Riviste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Riviste.java" afterDir="false" />
-    </list>
+    <list default="true" id="f1f6f102-be87-4f10-82ea-8f2ba0041d2c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -1,6 +1,6 @@
 package entities;
 
-public class Biblioteca {
+public abstract class Biblioteca {
     // ATTRIBUTI
    protected long ISBN;
    protected  String titolo;
