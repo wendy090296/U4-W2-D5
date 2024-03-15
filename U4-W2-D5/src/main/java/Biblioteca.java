@@ -1,9 +1,10 @@
 public class Biblioteca {
     // ATTRIBUTI
-   private long ISBN;
-   private  String titolo;
-   private int annoPubblicazione;
-   private int numeroPagine;
+   protected long ISBN;
+   protected  String titolo;
+   protected int annoPubblicazione;
+   protected int numeroPagine;
+
 
  // COSTRUTTORE
 
@@ -13,6 +14,7 @@ public class Biblioteca {
         this.titolo=titolo;
         this.annoPubblicazione=annoPubblicazione;
         this.numeroPagine=numeroPagine;
+//        this.autore=autore;
 
     }
 
@@ -34,7 +36,10 @@ public class Biblioteca {
     public int getNumeroPagine() {
         return numeroPagine;
     }
-
+//public String getAutore (){
+//        return getAutore;
+//
+//}
     @Override
     public String toString() {
         return "Biblioteca{" +

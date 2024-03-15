@@ -4,13 +4,13 @@ public class Libri extends Biblioteca {
     private String genere;
 
     //COSTRUTTORE
-    public Libri(long ISBN, String titolo, int annoPubblicazione, int numeroPagine, String autore, String genere) {
+    public Libri(long ISBN, String titolo, int annoPubblicazione, int numeroPagine, String genere,String autore) {
         super(ISBN, titolo, annoPubblicazione, numeroPagine);
         this.autore = autore;
         this.genere = genere;
     }
 
-    // METODI
+    // GETTERS
 
 
     public String getAutore() {
@@ -21,11 +21,16 @@ public class Libri extends Biblioteca {
         return genere;
     }
 
+
     @Override
     public String toString() {
         return "Libri{" +
                 "autore='" + autore + '\'' +
                 ", genere='" + genere + '\'' +
+                ", ISBN=" + ISBN +
+                ", titolo='" + titolo + '\'' +
+                ", annoPubblicazione=" + annoPubblicazione +
+                ", numeroPagine=" + numeroPagine +
                 '}';
     }
 }

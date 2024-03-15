@@ -6,4 +6,15 @@ public class Riviste extends Biblioteca {
         this.periodicità=periodicità;
 
     }
+
+    @Override
+    public String toString() {
+        return "Riviste{" +
+                "periodicità=" + periodicità +
+                ", ISBN=" + ISBN +
+                ", titolo='" + titolo + '\'' +
+                ", annoPubblicazione=" + annoPubblicazione +
+                ", numeroPagine=" + numeroPagine +
+                '}';
+    }
 }
