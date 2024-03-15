@@ -1,3 +1,7 @@
+package entities;
+
+import entities.Biblioteca;
+
 public class Riviste extends Biblioteca {
     private Periodicità periodicità;
 
@@ -9,7 +13,7 @@ public class Riviste extends Biblioteca {
 
     @Override
     public String toString() {
-        return "Riviste{" +
+        return "entities.Riviste{" +
                 "periodicità=" + periodicità +
                 ", ISBN=" + ISBN +
                 ", titolo='" + titolo + '\'' +

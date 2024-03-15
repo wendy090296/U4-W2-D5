@@ -1,3 +1,7 @@
+package entities;
+
+import entities.Biblioteca;
+
 public class Libri extends Biblioteca {
     //ATTRIBUTI
     private String autore;
@@ -24,7 +28,7 @@ public class Libri extends Biblioteca {
 
     @Override
     public String toString() {
-        return "Libri{" +
+        return "entities.Libri{" +
                 "autore='" + autore + '\'' +
                 ", genere='" + genere + '\'' +
                 ", ISBN=" + ISBN +

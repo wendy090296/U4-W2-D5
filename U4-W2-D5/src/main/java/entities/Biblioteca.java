@@ -1,3 +1,5 @@
+package entities;
+
 public class Biblioteca {
     // ATTRIBUTI
    protected long ISBN;
@@ -42,7 +44,7 @@ public class Biblioteca {
 //}
     @Override
     public String toString() {
-        return "Biblioteca{" +
+        return "entities.Biblioteca{" +
                 "ISBN=" + ISBN +
                 ", titolo='" + titolo + '\'' +
                 ", annoPubblicazione=" + annoPubblicazione +

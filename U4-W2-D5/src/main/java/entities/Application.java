@@ -1,3 +1,10 @@
+package entities;
+
+import entities.Biblioteca;
+import entities.Libri;
+import entities.Periodicità;
+import entities.Riviste;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -146,6 +153,8 @@ public class Application {
         ricercaPerISBN(archivioElementi,426589016);
         ricercaPerAutore(archivioElementi,"Luigi Pirandello");
         annoPubblicazione(archivioElementi,1877);
+
+
 
 
     }
